@@ -5,6 +5,10 @@
 #'
 #'This is wonderful.
 #'@export
+#'#'@examples
+#'\dontrun{
+#'summary.ryx(myryx, digits = 3)
+#'}
 
 summary.ryx <- function(x, digits = 3){
   if(!inherits(x, "ryx")) {

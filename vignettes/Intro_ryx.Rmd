@@ -1,0 +1,32 @@
+---
+title: "Introducing you to the wonderful ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro_ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ryx )
+```
+
+This is an introduction to my wonderful package ryx.
+You just need to tell me what data set and which variable(s) you are interested in
+and I will tell you the correlation among them. 
+
+You can use this package like this: 
+```{r}
+library(MASS)
+x <- ryx(Boston, y="medv")
+print.ryx(x, digits=3)
+summary.ryx(x)
+plot.ryx(x)
+```

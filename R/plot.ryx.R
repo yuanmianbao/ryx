@@ -5,7 +5,10 @@
 #'
 #'This is wonderful.
 #'@export
-
+#'@examples
+#'\dontrun{
+#'plot.ryx(myryx)
+#'}
 
 plot.ryx <- function(x){
   if(!inherits(x, "ryx")) {

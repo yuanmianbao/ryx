@@ -1,7 +1,7 @@
 Package: ryx 
 Type: Package
 Title: Playing with ryx
-Version: 0.1.0
+Version: 1.0.0
 Author: Terry Yuan
 Maintainer: Terry <tyuan@wesleyan.edu>
 Description: Give me a dataset and the variable(s) you want to explore, I will tell you their correlation

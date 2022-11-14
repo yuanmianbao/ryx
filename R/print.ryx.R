@@ -5,7 +5,10 @@
 #'
 #'This is wonderful.
 #'@export
-#'@return none
+#'@examples
+#'\dontrun{
+#'print.ryx(myryx, digits = 3)
+#'}
 
 
 print.ryx <- function(x, digits = 3){
