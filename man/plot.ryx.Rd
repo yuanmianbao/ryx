@@ -11,3 +11,8 @@ This \code{plot.ryx} function can plot the ryx objects.
 
 This is wonderful.
 }
+\examples{
+\dontrun{
+plot.ryx(myryx)
+}
+}

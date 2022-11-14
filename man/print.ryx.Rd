@@ -6,11 +6,13 @@
 \usage{
 \method{print}{ryx}(x, digits = 3)
 }
-\value{
-none
-}
 \description{
 This \code{print.ryx} function can print the ryx objects.
 
 This is wonderful.
+}
+\examples{
+\dontrun{
+print.ryx(myryx, digits = 3)
+}
 }
