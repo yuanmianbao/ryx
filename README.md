@@ -21,6 +21,10 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(ryx )
+myryx <- (mtcars, cyl)
+print.ryx(myryx)
+plot.ryx(myryx)
+summary.ryx(myryx)
 ## basic example code
 ```
 
